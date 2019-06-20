@@ -7,3 +7,61 @@ html {
 *:before {
     box-sizing: inherit;
 }
+
+body {
+    min-height: 100vh;
+    background: #2C2141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background: #F8F8F8;
+    max-width: 624px;
+    width: 100%;
+    max-height: 320px;
+    height: 100%;
+    padding: 32px;
+    display: flex;
+    border-radius: 16px;
+}
+
+.card__img {
+    margin-right: 32px;
+    max-height: 148px;
+}
+
+.person__name {
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
+
+}
+
+.person__position {
+    color: #545454;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 32px;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.person__description--color {
+    color: #ED6D05;
+}
+
+.person__description--links {
+    color: #E20613;
+}
+
+.person__description--socials {
+    font-weight: normal;
+    margin-top: 16px;
+}
